@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Merriweather Sans', sans-serif;
+}
+
+html {
+  background-color: green;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: aqua;
+
+  font-family: var(--font-family);
+}
+
+div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1e1e1e;
+  color: azure;
+  padding: 2rem;
+
+
+  border-radius: 2rem;
+}
+
+h1 {
+  margin: 5rem auto;
+  color: red;
+  padding: 0 2rem;
+}
+
+p {
+  color: rgb(238, 231, 231);
+  margin: 0 auto;
+  font-size: 4rem;
+}
